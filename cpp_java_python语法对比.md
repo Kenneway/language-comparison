@@ -4,6 +4,7 @@
 ## 主函数
 
 C++:
+
 	// 自由函数
 	int main( int argc, char* argv[])
 	{
@@ -12,6 +13,7 @@ C++:
 
  
 java:
+
 	// 每个函数必须是类成员；当java类运行时类中的主函数就会被调用
 	//（所以你可以为每个类写一个主函数－－这样用于给类写单元测试时会很方便）
 	class HelloWorld {
@@ -21,6 +23,7 @@ java:
 	}
 
 python:
+
 	# 条件语句
 	if __name__ == '__main__':
 		print "Hello, World"
